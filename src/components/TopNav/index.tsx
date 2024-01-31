@@ -7,8 +7,8 @@ const TopNav = () => {
     <Container fluid className='topnav'>
       <Container className='Container-cont'>
           <Row className='main-row'>
-            <Col aria-colspan={6} sm={3} href="#deets">About Airtel</Col>
-            <Col aria-colspan={6} sm={6} href="#memes">Careers</Col>
+            <Col xs={4} lg={1}  href="#deets">About Airtel</Col>
+            <Col xs={3} lg={1}  href="#memes">Careers</Col>
           </Row>
       </Container>
     </Container>
